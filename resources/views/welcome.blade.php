@@ -35,13 +35,11 @@
             <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique [...]” </p>
         </div>
     </div>
-    <br>
-    <br>
-    <br>
+
+    <br><br><br>
     <hr class="col-md-12" id="recursos">
-    <br>
-    <br>
-    <br>
+    <br><br><br>
+    
     <div class="row">
         <div class="col-md-12">
             <h1 class="text-center">Recursos</h1>               
