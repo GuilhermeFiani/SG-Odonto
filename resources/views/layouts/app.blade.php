@@ -11,15 +11,20 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 
     <!-- Styles -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
 </head>
+
 <body>
     <div id="app">
         <div style = "background-color: #7A59B9" class= "col-md-12 w-100 row m-0">
@@ -27,7 +32,7 @@
                 <img src="https://i.ibb.co/Krw4g2x/doll.png" alt="" class="img-fluid">
             </div>
             <div class= "text-white col-md-6 text-center m-auto" id="texto">
-                <h1 class="display-4" id="title-header">SGODONTO</h1>
+                <h1 class="teste display-4">SGODONTO</h1>
                 <p class="display-6">O site de gestão odontológica</p>
                 <br>
                 <p> 
@@ -41,7 +46,7 @@
         </div>
         <nav style="background-color: #C4C4C4"class="navbar navbar-expand-md navbar-light shadow-sm sticky-lg-top">
             
-            <div class="container">
+            <div class="container" style= "padding: 0">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('app.name', 'Laravel') }}
                 </a>
@@ -56,7 +61,7 @@
                     </ul>
 
                     <!-- Right Side Of Navbar -->
-                    <ul class="navbar-nav ms-auto">
+                    <ul class="cabecalho navbar-nav ms-auto">
                         <li class="nav-item mx-md-1"><a class="nav-link" href="{{ route('index').'/#recursos' }}">Recursos</a></li>
                         <!-- Authentication Links -->
                         @guest
@@ -95,7 +100,7 @@
             </div>
         </nav>
 
-        <main class="py-4">
+        <main>
             @yield('content')
         </main>
     </div>

@@ -1,0 +1,31 @@
+#primeira-parte{
+    background-color: #F1FAEE;
+    padding-top: 1.5rem;
+    text-align: justify;
+}
+
+.container {
+    font-family: 'Lato', sans-serif;   
+    padding-bottom: 1.5rem;
+}
+
+.titulo-um.text-center {
+    font-size: 45px;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+
+
+.subtitulo.text-center {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.title-conteudo-principal {
+    margin-top: 31px;
+    margin-bottom: 31px;
+}
+
+
+
