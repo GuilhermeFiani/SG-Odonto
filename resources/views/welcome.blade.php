@@ -53,91 +53,104 @@
     <hr class="col-md-12" id="recursos">
 </div>
 
-<div class="container">
-<br><br><br>
+<div id="segunda-parte">
+    <div class="container">
+    <br><br><br>
 
-    <div class="row">
-        <div class="col-md-6">
-            <div class="about-feature mt-30">
-                <div class="about-feature-image">
-                    <img src="https://i.ibb.co/30C493t/odonto.jpg" alt="odonto">
-                </div>
-                <div class="about-feature-content">
-                    <h2 class="feature-title"><strong>Cuidar da saúde bucal é mais importante do que parece, e manter o local de trabalho organizado é tão essencial quanto.</strong></h2>
-                    <p class="text">Confira o novo sistema de gerenciamento de clínica odontológica.</p>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="about-feature mt-30">
+                    <div class="about-feature-image">
+                        <img src="https://i.ibb.co/30C493t/odonto.jpg" alt="odonto">
+                    </div>
+                    <div class="about-feature-content">
+                        <h2 class="feature-title"><strong>Cuidar da saúde bucal é mais importante do que parece, e manter o local de trabalho organizado é tão essencial quanto.</strong></h2>
+                        <p class="text">Confira o novo sistema de gerenciamento de clínica odontológica.</p>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="topicos col-md-5 offset-1">
+            <div class="topicos col-md-5 offset-1">
 
-            <div class="about-feature-items d-sm-flex mt-30">
-                <div class="feature-items-icon">
-                    <img class="iconj" src="https://i.ibb.co/qRb6cqf/person-add.png" alt="Icon">
+                <div class="about-feature-items d-sm-flex mt-30">
+                    <div class="feature-items-icon">
+                        <img class="iconj" src="https://i.ibb.co/qRb6cqf/person-add.png" alt="Icon">
+                    </div>
+                    <div class="feature-items-content media-body">
+                        <h5 class="item-title">Registre os pacientes de acordo com um prontuário odontológico</h5>    
+                        <p class="text">Adicione seus pacientes com a maioria dos campos presentes em uma ficha odontológica!</p>
+                    </div>
                 </div>
-                <div class="feature-items-content media-body">
-                    <h5 class="item-title">Registre os pacientes de acordo com um prontuário odontológico</h5>    
-                    <p class="text">Adicione seus pacientes com a maioria dos campos presentes em uma ficha odontológica!</p>
+                <div class="about-feature-items d-sm-flex mt-30">
+                    <div class="feature-items-icon">
+                        <img class="iconj" src="https://i.ibb.co/HHHcMzC/shopping-cart.png" alt="Icon">
+                    </div>
+                    <div class="feature-items-content media-body">
+                        <h5 class="item-title">Faça uma análise do estoque de materiais</h5>
+                        <p class="text">Gerencie os materias restantes no seu consultório odontológico.</p>
+                    </div>
                 </div>
+                <div class="about-feature-items d-sm-flex mt-30">
+                    <div class="feature-items-icon">
+                        <img class="iconj" src="https://i.ibb.co/tzJRGRs/date.png" alt="Icon">
+                    </div>
+                    <div class="feature-items-content media-body">
+                        <h5 class="item-title">Agende horários dos seus pacientes</h5>
+                        <p class="text">Administre o agendamento de seus pacientes, marcando e desmarcando horários</p>
+                    </div>   
+                </div>
+                
             </div>
-            <div class="about-feature-items d-sm-flex mt-30">
-                <div class="feature-items-icon">
-                    <img class="iconj" src="https://i.ibb.co/HHHcMzC/shopping-cart.png" alt="Icon">
-                </div>
-                <div class="feature-items-content media-body">
-                    <h5 class="item-title">Faça uma análise do estoque de materiais</h5>
-                    <p class="text">Gerencie os materias restantes no seu consultório odontológico.</p>
-                </div>
-            </div>
-            <div class="about-feature-items d-sm-flex mt-30">
-                <div class="feature-items-icon">
-                    <img class="iconj" src="https://i.ibb.co/tzJRGRs/date.png" alt="Icon">
-                </div>
-                <div class="feature-items-content media-body">
-                    <h5 class="item-title">Agende horários dos seus pacientes</h5>
-                    <p class="text">Administre o agendamento de seus pacientes, marcando e desmarcando horários</p>
-                </div>   
-            </div>
-            
         </div>
-    </div>
-</div>
-<hr class="col-md-12" id="recursos">
-<div class="container">
-<br><br><br>
-
-    <div class="row">
-        <div class="img-conteudo-principal offset-md-1 col-md-6">
-            <img src="https://uploads.metropoles.com/wp-content/uploads/2022/01/28135311/170332229_518813559122192_6312887425497146232_n.jpg" alt="" class="img-fluid">
-            <p>O simples sistema com funções de gerenciamento de uma clínica odontológica</p>
-        </div>
-        <div class="lista-coisas offset-md-1 col-md-3">
-            <ul>Coisa 1</ul>
-            <ul>Coisa 2</ul>
-            <ul>Coisa 3</ul>
-        </div>     
-    </div>
-    
-    
-
-    <div class="row">
-        <div class="col-md-12">
-            <h1 class="conteudo-secundario text-center">Recursos</h1>               
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12">
-            <h2 class="conteudo-secundario text-center">Este tópico apresenta algumas funcionalidades do trabalho</h2>
-        </div>
-    </div>
-    <div class="row">
-        <ul class="recursos-lista list-inline">
-            @for ($i = 0; $i < 8; $i++)
-                <li class= "list-inline-item offset-md-1 col-md-2 text-center m-2">Ponto {{$i+1}}</li>
-            @endfor
-        </ul>
+        <br><br><br>
     </div>
 </div>
 
+
+
+<div id="terceira-parte">
+    <hr class="col-md-12" id="recursos">
+    <div class="container">
+    <br><br><br>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="conteudo-secundario text-center">Benefícios</h1>               
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 mb-5">
+                <h2 class="conteudo-secundario text-center">Este tópico apresenta algumas agregações do trabalho</h2>
+            </div>
+        </div>
+        <div class="row">
+            <ul class="recursos-lista list-inline d-flex justify-content-center">
+                <li class= "list-inline-item offset-md-1 col-md-3 text-center m-2">
+                    <div class="ponto-1">
+                        <h5>Menos papel:</h5>
+                        <p>Com o uso desse sistema, o estabelecimento irá substituir as fichas físicas por um banco de dados.</p>
+                    </div>
+                </li>
+                <li class= "list-inline-item offset-md-1 col-md-3 text-center m-2">
+                    <div class="ponto-2">
+                        <h5>Produtividade:</h5>
+                        <p>O site trará funções cotidianas de uma clínica odontológica de maneira prática, tornando o trabalho mais produtivo.</p>
+                    </div>
+                </li>
+                <li class= "list-inline-item offset-md-1 col-md-3 text-center m-2">
+                    <div class="ponto-3">
+                        <h5>Dinamicidade:</h5>
+                        <p>O produto irá diminuir a exaustão do trabalho braçal e armazenar as informações frequentemente obtidas.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        
+    </div>
+</div>
+<footer>
+    Contato
+</footer>
 
 @endsection
