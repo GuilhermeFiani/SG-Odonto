@@ -37,9 +37,9 @@
 
 <!--Linha com os dois textos -->
         <div class="row">
-            <div class="main-content col-md-5"> <!-- main-content cold-md-10 offset-md-1 -->
+            <div class="main-content col-md-5 mb-1"> <!-- main-content cold-md-10 offset-md-1 -->
                 <p>O SGODONTO é resultado do desenvolvimento de um trabalho de conclusão de curso, onde a proposta do mesmo é criar um site para gestão de um consultório odontológico, que irá conter funções que facilitam as atividades cotidianas na parte administrativa do estabelecimento, funções estas que são apresentadas logo abaixo.</p>
-                <a href="#" id="botao-conferir" class="btn btn-outline-secondary">Conferir trabalho escrito</a>
+                <a href="#" id="botao-conferir" class="btn btn-outline-secondary col-md-5 offset-md-3">Conferir trabalho escrito</a>
             </div>
             <div class="legenda col-md-5 offset-2">
                 <p>"Este trabalho visa o desenvolvimento de um software para auxiliar a organização das fichas de pacientes em clínicas odontológicas. Dessa forma, o consumo de papel será reduzido, haverá maior facilidade na procura de dados e identificação dos pacientes e no planejamento de tratamentos, assim como horários de consulta. Para a realização deste, primeiramente foi feita uma entrevista com um profissional da área, para saber quais seriam os requisitos deste software. Em seguida, foram analisadas as metodologias, linguagens e sistemas a serem usados para o desenvolvimento do trabalho em si e realizada a procura por referências para comprovar a exatidão dos dados e complementar as informações já adquiridas.”     
@@ -49,10 +49,41 @@
     
 <br><br><br> 
     </div>
-<!--Marcação da divisão-->
+<!--Linha de divisão-->
     <hr class="col-md-12" id="recursos">
 </div>
 
+<div class="container">
+<br><br><br>
+
+    <div class="row">
+        <div class="col-md-5">
+            <img src="https://i.ibb.co/30C493t/odonto.jpg" alt="odonto">
+            <h4>Cuidar da saúde bucal é mais importante do que parece, e manter o local de trabalho organizado é tão essencial quanto.</h4>
+            <p>Confira o novo sistema de gerenciamente de clínica odontológica.</p>
+        </div>
+        <div class="topicos col-md-5 offset-2">
+            <div class="img-topico">
+                <img src="https://i.ibb.co/qRb6cqf/person-add.png" alt="Icon">
+            </div>
+            <div class="text-topico">
+                <h5>Registre os pacientes de acordo com um prontuário odontológico</h5>    
+                <p>Adicione seus pacientes com a maioria dos campos presentes em uma ficha odontológica!</p>
+            </div>
+            <div class="img-topico">
+                <img src="https://i.ibb.co/HHHcMzC/shopping-cart.png" alt="Icon">
+                <h5>Faça uma análise do estoque de materiais</h5>
+                <p>Gerencie os materias restantes no seu consultório odontológico.</p>
+            </div>
+            <div class="img-topico">
+                <img src="https://i.ibb.co/tzJRGRs/date.png" alt="Icon">
+                <h5>Agende horários dos seus pacientes</h5>
+                <p>Administre o agendamento de seus pacientes, marcando e desmarcando horários</p>
+            </div>
+        </div>
+    </div>
+</div>
+<hr class="col-md-12" id="recursos">
 <div class="container">
 <br><br><br>
 
@@ -68,6 +99,8 @@
         </div>     
     </div>
     
+    
+
     <div class="row">
         <div class="col-md-12">
             <h1 class="conteudo-secundario text-center">Recursos</h1>               
