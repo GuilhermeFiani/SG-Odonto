@@ -32,4 +32,34 @@
     
 }
 
+.about-feature-items .feature-items-content{
+    padding-left: 20px;
+}
+
+.about-feature-items {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.about-feature .about-feature-content{
+    margin-top: 40px
+}
+
+.about-feature .about-feature-content .feature-title{
+    font-size: 27px;
+    line-height: 45px;
+    text-align: justify;
+}
+
+.about-feature .about-feature-content .text{
+    font-size: 20px;
+    
+}
+
+.about-feature .about-feature-image img {
+    width: 100%;
+}
+
+
+
 

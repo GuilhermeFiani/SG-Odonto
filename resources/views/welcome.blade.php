@@ -57,29 +57,48 @@
 <br><br><br>
 
     <div class="row">
-        <div class="col-md-5">
-            <img src="https://i.ibb.co/30C493t/odonto.jpg" alt="odonto">
-            <h4>Cuidar da saúde bucal é mais importante do que parece, e manter o local de trabalho organizado é tão essencial quanto.</h4>
-            <p>Confira o novo sistema de gerenciamente de clínica odontológica.</p>
+        <div class="col-md-6">
+            <div class="about-feature mt-30">
+                <div class="about-feature-image">
+                    <img src="https://i.ibb.co/30C493t/odonto.jpg" alt="odonto">
+                </div>
+                <div class="about-feature-content">
+                    <h2 class="feature-title"><strong>Cuidar da saúde bucal é mais importante do que parece, e manter o local de trabalho organizado é tão essencial quanto.</strong></h2>
+                    <p class="text">Confira o novo sistema de gerenciamento de clínica odontológica.</p>
+                </div>
+            </div>
         </div>
-        <div class="topicos col-md-5 offset-2">
-            <div class="img-topico">
-                <img src="https://i.ibb.co/qRb6cqf/person-add.png" alt="Icon">
+
+        <div class="topicos col-md-5 offset-1">
+
+            <div class="about-feature-items d-sm-flex mt-30">
+                <div class="feature-items-icon">
+                    <img class="iconj" src="https://i.ibb.co/qRb6cqf/person-add.png" alt="Icon">
+                </div>
+                <div class="feature-items-content media-body">
+                    <h5 class="item-title">Registre os pacientes de acordo com um prontuário odontológico</h5>    
+                    <p class="text">Adicione seus pacientes com a maioria dos campos presentes em uma ficha odontológica!</p>
+                </div>
             </div>
-            <div class="text-topico">
-                <h5>Registre os pacientes de acordo com um prontuário odontológico</h5>    
-                <p>Adicione seus pacientes com a maioria dos campos presentes em uma ficha odontológica!</p>
+            <div class="about-feature-items d-sm-flex mt-30">
+                <div class="feature-items-icon">
+                    <img class="iconj" src="https://i.ibb.co/HHHcMzC/shopping-cart.png" alt="Icon">
+                </div>
+                <div class="feature-items-content media-body">
+                    <h5 class="item-title">Faça uma análise do estoque de materiais</h5>
+                    <p class="text">Gerencie os materias restantes no seu consultório odontológico.</p>
+                </div>
             </div>
-            <div class="img-topico">
-                <img src="https://i.ibb.co/HHHcMzC/shopping-cart.png" alt="Icon">
-                <h5>Faça uma análise do estoque de materiais</h5>
-                <p>Gerencie os materias restantes no seu consultório odontológico.</p>
+            <div class="about-feature-items d-sm-flex mt-30">
+                <div class="feature-items-icon">
+                    <img class="iconj" src="https://i.ibb.co/tzJRGRs/date.png" alt="Icon">
+                </div>
+                <div class="feature-items-content media-body">
+                    <h5 class="item-title">Agende horários dos seus pacientes</h5>
+                    <p class="text">Administre o agendamento de seus pacientes, marcando e desmarcando horários</p>
+                </div>   
             </div>
-            <div class="img-topico">
-                <img src="https://i.ibb.co/tzJRGRs/date.png" alt="Icon">
-                <h5>Agende horários dos seus pacientes</h5>
-                <p>Administre o agendamento de seus pacientes, marcando e desmarcando horários</p>
-            </div>
+            
         </div>
     </div>
 </div>
