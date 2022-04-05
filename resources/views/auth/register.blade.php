@@ -38,22 +38,31 @@
                         @enderror
                     </div>
                 </div>
+                
+                
+                    <div class="row mb-3 offset-md-2 col-md-8">
+                        <div class="col-md-4">
+                            <label for="password">Senha</label>
+                        </div>
+                        <div class="col-md-4 offset-2">
+                            <label for="password_confirmation">Confirme a senha</label>
+                        </div>
+                        
+                        <div class="col-md-6 p-1">
+                            <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password" >
 
-                <div class="row mb-3 offset-md-2 col-md-8">
-                    <div class="col-md-6 p-1">
-                        <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password" placeholder="Senha">
+                            @error('password')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
+                        </div>
 
-                        @error('password')
-                            <span class="invalid-feedback" role="alert">
-                                <strong>{{ $message }}</strong>
-                            </span>
-                        @enderror
+                        <div class="col-md-6 p-1">
+                            <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
+                        </div>
                     </div>
-
-                    <div class="col-md-6 p-1">
-                        <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password" placeholder="Confirme a sua senha">
-                    </div>
-                </div>
+                
 
                 <div class="row mb-0">
                     <div class="col-md-8 offset-md-2">

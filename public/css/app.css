@@ -1,6 +1,6 @@
 #primeira-parte{
     background-color: #F1FAEE;
-    padding-top: 1.5rem;
+
     text-align: justify;
 }
 
@@ -70,4 +70,16 @@ footer {
     padding: 100px;
 }
 
+.senhas {
+    margin-top: 7px;
+}
+
+.container {
+    padding-top: 1.5rem;
+    
+}
+
+.card-header {
+    text-align: center;
+}
 
